@@ -161,7 +161,7 @@ private boolean testPossibleValues(){
 
 /**
  * Designed for testing 9x9 sudoku solving.
- * @return
+ * @return Whether the sudoku contains any illegal duplicate numbers.
  */
 private boolean testSudokuTable(){
 	SudokuTable sudoukuTable = new SudokuTable(9);
